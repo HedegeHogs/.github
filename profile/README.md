@@ -8,6 +8,10 @@ HedgeHog is a production-ready DeFi automation platform that enables users to cr
 
 ## What is HedgeHog?
 
+## 🧠 Product mental model
+
+HedgeHogs is an aggregator of LP pools + lending markets with an automation layer on top. Users freely pick any pool or lending opportunity; automation (auto-harvest / auto-compound / auto-rebalance / auto-repay / auto-collateralize) is an opt-in layer applied AFTER the user opens a position. Not a catalog of canned strategies. References: Pendle (markets-first), Vaults.fyi (yield aggregator), DeBank (discovery). Not Yearn/Summers.fi (strategy-first).
+
 HedgeHog allows you to:
 - 🤖 **Automate DeFi strategies** - Set-and-forget position management across Aave, Uniswap V3, Curve, and more
 - 🔐 **Maintain full control** - Your funds stay in your personal proxy contract, not the protocol
